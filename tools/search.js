@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 export async function webSearch(query, num = 5) {
   // Ưu tiên dùng Google Custom Search nếu có key
