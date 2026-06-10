@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 export async function fetchPageText(url) {
   const res = await fetch(url, { timeout: 8000 });
