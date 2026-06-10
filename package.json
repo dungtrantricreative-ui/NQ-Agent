@@ -1,6 +1,7 @@
 {
   "name": "agent-chatbot",
   "version": "1.0.0",
+  "type": "module",
   "description": "Gemini-like chatbot with tools on Render",
   "main": "server.js",
   "scripts": {
